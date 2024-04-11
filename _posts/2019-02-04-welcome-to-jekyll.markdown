@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Light life!"
+title:  "Good morning life, so beautiful and bright"
 categories: [ Ji Tao ]
 image: assets/images/demo1.jpg
 ---
