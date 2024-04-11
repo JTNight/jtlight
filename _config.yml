@@ -20,7 +20,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    Ji Tao:
+    sal:
       name:           冀涛 (Ji Tao)
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
