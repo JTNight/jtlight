@@ -34,13 +34,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/web/jtlight.github.io",
+    "last_opened_file_path": "D:/web/jtlight.github.io/_pages",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\jtlight.github.io\_pages" />
       <recent name="D:\web\jtlight.github.io" />
     </key>
   </component>
@@ -59,7 +60,7 @@
       <workItem from="1712826357773" duration="11285000" />
       <workItem from="1712912310784" duration="9823000" />
       <workItem from="1712929171293" duration="1663000" />
-      <workItem from="1712931967789" duration="2257000" />
+      <workItem from="1712931967789" duration="2476000" />
     </task>
     <servers />
   </component>
