@@ -1,0 +1,65 @@
+---
+title: "J-Light.Web"
+layout: default
+pagination:
+    enabled: true
+description: "Wellcome, This is Ji Tao's life home."
+---
+
+
+<title>Markdown Viewer</title>
+<style>
+    /* 样式可以根据需要进行自定义 */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+    }
+    .markdown-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .markdown-content {
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="markdown-container" id="markdown-container">
+    <!-- Markdown 文件内容将在此显示 -->
+</div>
+
+<script>
+    // Markdown 文件的 URL 列表
+    var markdownFiles = [
+        '2019-01-18-charm-old-cities.md',
+        '2019-01-18-customer-service.md'
+        // 添加更多文件的 URL
+    ];
+
+    // 加载 Markdown 文件并显示内容
+    function loadMarkdownFiles() {
+        var container = document.getElementById('markdown-container');
+
+        markdownFiles.forEach(function(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(text => {
+                    var div = document.createElement('div');
+                    div.className = 'markdown-content';
+                    div.innerHTML = marked(text); // 使用 marked.js 库将 Markdown 转换为 HTML
+                    container.appendChild(div);
+                })
+                .catch(error => console.error('Error loading Markdown file:', error));
+        });
+    }
+
+    // 使用 marked.js 库进行 Markdown 到 HTML 的转换
+    // 请确保引入了 marked.js 库
+    // <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    loadMarkdownFiles();
+</script>
+
+</body>
+</html>
