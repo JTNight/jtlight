@@ -4,7 +4,11 @@ layout: default
 permalink: "/aboutme2.html"
 ---
 
+<div class="container">
 
+{% if page.url == "/" %}
+
+    
 {% assign latest_post = site.posts2[0] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">
@@ -34,4 +38,5 @@ permalink: "/aboutme2.html"
     </div>
     </div>
 
-    <div class="col-md-6">
+
+</div>
