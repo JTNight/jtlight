@@ -6,7 +6,8 @@ permalink: "/aboutme2.html"
 
 <div class="container">
 
-{% assign latest_post = site.posts[1] %}
+    {%- assign latest_post = site.posts | where: "path", "_posts/2024-4-16-1.md" | first -%}
+
     <div class="col-md-12">
     <div class="card border-0 mb-4 box-shadow">
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
