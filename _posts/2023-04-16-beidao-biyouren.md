@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Good morning life, so beautiful and bright"
+title:  "必有人重写爱情"
 categories: 冀涛 (Ji Tao)
 image: assets/images/8.jpg
 ---
