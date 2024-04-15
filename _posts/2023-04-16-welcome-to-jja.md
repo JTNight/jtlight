@@ -2,7 +2,7 @@
 layout: post
 title:  "Good morning life, so beautiful and bright"
 categories: 冀涛 (Ji Tao)
-image: assets/images/demo1.jpg
+image: assets/images/8.jpg
 ---
 &nbsp;&nbsp;**《必有人重写爱情》**  
 作者：北岛  
