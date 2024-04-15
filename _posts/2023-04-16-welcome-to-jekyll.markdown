@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "必有人重写爱情"
+title:  "Good morning life, so beautiful and bright"
 categories: 冀涛 (Ji Tao)
 image: assets/images/1.jpg
 ---
-
-**《必有人重写爱情》**  
+&nbsp;&nbsp;**《必有人重写爱情》**  
 作者：北岛  
 出版时间：2022年4月
   
