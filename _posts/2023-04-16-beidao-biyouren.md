@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "必有人重写爱情"
-categories: 冀涛 (Ji Tao)
+categories: 月夜杀猪男
 image: assets/images/8.jpg
 ---
 &nbsp;&nbsp;  
